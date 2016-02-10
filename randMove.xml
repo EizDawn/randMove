@@ -8,11 +8,6 @@
     </value>
     <statement name="DO">
       <block type="robot_delay" id="64" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="77">
-            <field name="NUM">250</field>
-          </block>
-        </value>
         <next>
           <block type="movement_leftmotor" id="109" inline="true">
             <value name="MOVLEFT">
@@ -26,7 +21,7 @@
                     </value>
                     <value name="B">
                       <block type="math_number" id="137">
-                        <field name="NUM">98</field>
+                        <field name="NUM">50</field>
                       </block>
                     </value>
                   </block>
@@ -51,7 +46,7 @@
                         </value>
                         <value name="B">
                           <block type="math_number" id="169">
-                            <field name="NUM">98</field>
+                            <field name="NUM">50</field>
                           </block>
                         </value>
                       </block>
